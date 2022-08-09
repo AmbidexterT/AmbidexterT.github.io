@@ -1,0 +1,9 @@
+#header-toolbar{
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+
+#container-router-outlet {
+  padding-left: 201px;
+}
