@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ziphr-frontend": {
+    "market-guru-frontend": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ziphr-frontend",
+            "outputPath": "dist/market-guru-frontend",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -23,11 +23,7 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css"
-            ],
-            "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+              "src/styles.scss"
             ]
           },
           "configurations": {
@@ -67,10 +63,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ziphr-frontend:build:production"
+              "browserTarget": "market-guru-frontend:build:production"
             },
             "development": {
-              "browserTarget": "ziphr-frontend:build:development"
+              "browserTarget": "market-guru-frontend:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -78,7 +74,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ziphr-frontend:build"
+            "browserTarget": "market-guru-frontend:build"
           }
         },
         "test": {
@@ -93,7 +89,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           }

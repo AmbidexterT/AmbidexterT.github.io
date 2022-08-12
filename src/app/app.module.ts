@@ -2,8 +2,9 @@ import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
-import {HeaderModule} from "./header/header.module";
-import {HomeModule} from "./home/home.module";
+import {MaterialExampleModule} from "../material.module";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -12,8 +13,9 @@ import {HomeModule} from "./home/home.module";
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HeaderModule,
-    HomeModule,
+    MaterialExampleModule,
+    BrowserAnimationsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [

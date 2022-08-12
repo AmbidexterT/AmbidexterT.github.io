@@ -2,18 +2,14 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  /*{
+  {
     path: '',
-    redirectTo: 'header',
+    redirectTo: 'table',
     pathMatch: 'full'
   },
   {
-    path: 'header',
-    loadChildren: () => import('./header/header.module').then(m => m.HomeModule),
-  },*/
-  {
-    path: '',
-    loadChildren: () => import('./home/home.module').then(m => m.HomeModule),
+    path: 'table',
+    loadChildren: () => import('./modules/table/table.module').then(m => m.TableModule),
   },
 ];
 

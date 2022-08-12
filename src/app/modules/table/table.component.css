@@ -1,0 +1,17 @@
+table {
+  width: 100%;
+}
+
+
+.mat-header-row {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 9999;
+}
+
+.mat-cell {
+  font-size: 14px;
+  text-align: center;
+  border-right: 1px solid black;
+}

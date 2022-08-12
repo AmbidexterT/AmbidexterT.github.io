@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'ziphr-frontend'`, () => {
+  it(`should have as title 'market-guru-frontend'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ziphr-frontend');
+    expect(app.title).toEqual('market-guru-frontend');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('ziphr-frontend app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('market-guru-frontend app is running!');
   });
 });
