@@ -1,27 +1,39 @@
-# market-guru
+# MarketGuru Front-end Assignment
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.1.
+Using Angular 14.
 
-## Development server
+## Development
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Start serving the application to `http://localhost:4000`.
 
-## Code scaffolding
+```
+npm run start
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Build the application to `dist/`.
 
-## Build
+```
+npm run build
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Check code quality.
 
-## Running unit tests
+```
+npm run lint
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Features
+Test task. 
+Create an angular module, then you need to get data from a hypothetical backend, add them somewhere, create a component, render data into a table, make front sorting and pagination (for example, 5 per page).
+It will be a plus to make filtering on several fields.
+- [x] Create an angular module.
+- [x] Create a component
+- [x] render data into a table.
+- [x] Make front sorting and pagination.
+- [x] Make filtering on several fields.
 
-## Running end-to-end tests
+## Some modification
+Filtering works with several fields and search bar at the same time, that is, both filters and search are looking for a one-time suitable for everything
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Possible improvements
+It was possible to add filtering through Reactive Forms in the header of the columns
