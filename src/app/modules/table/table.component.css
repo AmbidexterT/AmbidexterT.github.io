@@ -10,13 +10,3 @@ table {
   z-index: 9999;
 }
 
-.mat-cell {
-  font-size: 14px;
-  text-align: center;
-  border-right: 1px solid black;
-}
-
-.mat-header-cell {
-  text-align: center;
-  border-right: 1px solid black;
-}
